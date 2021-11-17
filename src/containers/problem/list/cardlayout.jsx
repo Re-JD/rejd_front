@@ -8,8 +8,8 @@ class Card extends Component {
         return (
             <div>
            <Cardwrapper>
-             <Titles>제목</Titles>
-             <Descriptions>블라블라블라 내용</Descriptions>  
+             <Title name="제목제목"/>
+             <Description name="내용블라블라블라"/>
             </Cardwrapper>    
              </div> 
         );
@@ -22,11 +22,5 @@ const Cardwrapper = styled.div`
     background-color:#2EFEF7;
     border: 1px solid black;
     flex:comlumn;
-`
-const Titles = styled.div`
-    font-size:20px;
-`
-const Descriptions = styled.div`
-    font-size:13px;
 `
 export default Card;
